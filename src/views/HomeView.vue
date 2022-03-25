@@ -6,7 +6,7 @@
             <v-col cols="6">
                 <v-img src="/img/photo.png" contain max-height="500"></v-img>
             </v-col>
-            <v-col cols="6">
+            <v-col cols="6" id="home">
               <h5 class="white--text text-darken-4 top">Привет, меня зовут Урал</h5>
               <h1 class="white--text">Фронтенд разрботчик, QA</h1>
               <p class="white--text">
@@ -15,7 +15,7 @@
               <v-btn tile color="#A7121D dark">Обо мне</v-btn>
             </v-col>
             <v-col cols="12" class="padd">
-              <div class="first" id="project">
+              <div class="first" id="tech">
                 <v-row>
                   <v-col cols="12">
                     <div class="child bgColor1">
@@ -23,7 +23,7 @@
                         >mdi-palette-swatch</v-icon>
                       <h3 class="white--text ml-3 mt-4">QA, автотесты</h3>
                       <p class="grey--text ml-3 mt-6">
-                       Покрытие продукта <br /> интеграционными  сквозными <br />автотестами
+                       Покрытие продукта <br /> интеграционными,<br /> сквозными автотестами
                       </p>
                       <v-btn color="#A7121D" dark text>
                         подробнее
@@ -34,7 +34,7 @@
                       <v-icon x-large class="ml-3" dark>mdi-shopping</v-icon>
                       <h3 class="white--text ml-3 mt-4">Фронтенд</h3>
                       <p class="grey--text ml-3 mt-6">
-                        Текст
+                        Разрботка клиентского <br /> интерфейса при помощи <br /> современного фреймворка
                       </p>
                       <v-btn dark text>
                         подробнее
@@ -45,7 +45,7 @@
                       <v-icon color="#A7121D" x-large class="ml-3">mdi-book-open-page-variant</v-icon>
                       <h3 class="white--text ml-3 mt-4">Верстка сайтов</h3>
                       <p class="grey--text ml-3 mt-6">
-                          Текст.
+                          Десктопная, адаптивная <br /> под планшет и <br /> мобильное устройство
                       </p>
                        <v-btn color="#A7121D" dark text>
                         подробнее
@@ -53,122 +53,134 @@
                       </v-btn>
                     </div>
                   </v-col>
-                  <v-col cols="12" class="mt-10">
+                  <v-col cols="10" class="mt-10">
                     <div class="child1">
-                      <h1 class="white--text mt-4">Стек технологий</h1>
+                      <h3 class="white--text mt-4">Стек технологий</h3>
                     </div>
+                     <div class="child2 mRight">
+                      <v-row>
+                        <stek-button>Postman</stek-button>
+                        <stek-button>Cypress.io</stek-button>
+                        <stek-button>Jusmine</stek-button>                        
+                      </v-row>
+                    </div>
+                    <div class="child2 mRight">
+                      <v-row>
+                        <stek-button>git</stek-button>
+                        <stek-button>Vue.js</stek-button>
+                        <stek-button>JavaScript</stek-button>                        
+                      </v-row>
+                    </div>
+                      <!-- <div class="child2 mRight">
+                      <v-row>
+                        <stek-button>Jira</stek-button>
+                        <stek-button>Trello</stek-button>
+                        <stek-button>Confluence</stek-button> 
+                      </v-row>                       
+                    </div> -->
                     <div class="child2 mRight">
                       <v-row>
                        <stek-button>HTML5</stek-button>
                        <stek-button>CSS3</stek-button>
-                       <stek-button>JAVASCRIPT</stek-button>
+                       <stek-button>SASS</stek-button>
                       </v-row>
                     </div>
-                   
-                    <div class="child2 mRight">
-                      <v-row>
-                        <stek-button>Vue.js</stek-button>
-                        <stek-button>NPM</stek-button>
-                        <stek-button>YARN</stek-button>                        
-                      </v-row>
-                    </div>
-                      <div class="child2 mRight">
-                      <v-row>
-                        <stek-button>GIT</stek-button>
-                        <stek-button>FIGMA</stek-button>
-                        <stek-button>YARN</stek-button> 
-                      </v-row>                       
-                    </div>
-                     <div class="child2 mRight">
-                      <v-row>
-                        <stek-button>JIRA</stek-button>
-                        <stek-button>CONFLUENCE</stek-button>
-                        <stek-button>YARN</stek-button> 
-                      </v-row>                       
-                    </div>
-
                   </v-col>
                 </v-row>
               </div>
             </v-col>
-            <v-col md="3" offset-md="3" id="about">
+                  <!-- <div id="project" class="white--text title"><h2 >Проекты</h2></div> -->
+            <v-row>
+                  <v-col 
+                  md="3" 
+                  offset-md="1">
+                  <v-card 
+                  class="pa-2 py-12" 
+                  outlined 
+                  tile 
+                  height="250px" 
+                  color="#1E1E1E"
+                >
+                    <v-img src="/img/posts.png" contain></v-img>
+                  </v-card>
+                </v-col>
+                <v-col md="3">
+                  <v-card 
+                    class="pa-2 py-12" 
+                    outlined 
+                    tile 
+                    height="250px" 
+                    color="#1E1E1E"
+                  >
+                    <v-img src="/img/shopstore.png" contain></v-img>
+                  </v-card>
+                </v-col>
+                <v-col md="3">
+                  <v-card 
+                    class="pa-2 py-12" 
+                    outlined 
+                    tile 
+                    height="250px" 
+                    color="#1E1E1E"
+                  >
+                    <v-img src="/img/cuda.png" contain></v-img>
+                  </v-card>
+                </v-col>
+                  <v-col md="3" offset-md="1">
+                    <v-btn color="white" dark text class="m1-n4"
+                      href="https://vue3project.herokuapp.com/"
+                      target="_blank"
+                    >
+                      Веб-приложение постов
+                    </v-btn><br />
+                    <v-btn color="#A7121D" dark text class="m1-n4"
+                      href="https://vue3project.herokuapp.com/"
+                      target="_blank"
+                    >
+                      подробнее
+                    </v-btn>
+                    <v-icon right color="#A7121D">mdi-arrow-right</v-icon>
+                  </v-col>
+                <v-col md="3">
+                  <v-btn color="white" dark text class="m1-n4"
+                  href="https://storerushop.herokuapp.com/"
+                      target="_blank"
+                  >
+                    
+                    Интернет-магазин
+                  </v-btn><br />
+                  <v-btn color="#A7121D" dark text class="m1-n4"
+                  href="https://storerushop.herokuapp.com/"
+                      target="_blank"
+                  >
+                      подробнее
+                  </v-btn>
+                  <v-icon right color="#A7121D">mdi-arrow-right</v-icon>
+                </v-col>  
+                 <v-col md="3">
+                  <v-btn color="white" dark text class="m1-n4"
+                  href="https://mukhametovur.github.io/cuda/"
+                      target="_blank"
+                  >
+                    
+                    Лендинг Cuda
+                  </v-btn><br />
+                  <v-btn color="#A7121D" dark text class="m1-n4"
+                  href="https://mukhametovur.github.io/cuda/"
+                      target="_blank"
+                  >
+                      подробнее
+                  </v-btn>
+                  <v-icon right color="#A7121D">mdi-arrow-right</v-icon>
+                </v-col>  
+            </v-row> 
+
+                  <v-col md="3" offset-md="3" id="about">
               <h4 class="white--text">FEATURED PROJECTS</h4>
               <p class="white--text">Lorem ipsum dolor sit</p>
             </v-col>
             <v-col md="3" class="text-end">
               <v-btn tile color="#A7121D" dark>View all</v-btn>
-            </v-col>
-            <v-col 
-              md="3" 
-              offset-md="3">
-              <v-card 
-              class="pa-2 py-12" 
-              outlined 
-              tile 
-              height="250px" 
-              color="#1E1E1E"
-            >
-                <v-img src="/img/posts.png" contain></v-img>
-              </v-card>
-            </v-col>
-             <v-col md="3">
-              <v-card 
-                class="pa-2 py-12" 
-                outlined 
-                tile 
-                height="250px" 
-                color="#1E1E1E"
-              >
-                <v-img src="/img/1.png" contain></v-img>
-              </v-card>
-            </v-col>
-             <v-col md="3" offset-md="3">
-              <v-btn color="white" dark text class="m1-n4"
-                href="https://vue3project.herokuapp.com/"
-                target="_blank"
-              >
-                Posts
-              </v-btn><br />
-              <v-btn color="#A7121D" dark text class="m1-n4"
-                href="https://vue3project.herokuapp.com/"
-                target="_blank"
-              >
-                know more
-              </v-btn>
-              <v-icon right color="#A7121D">mdi-arrow-right</v-icon>
-            </v-col>
-             <v-col md="3">
-              <v-btn color="white" dark text class="m1-n4">
-                Foodasa
-              </v-btn><br />
-              <v-btn color="#A7121D" dark text class="m1-n4">
-                know more
-              </v-btn>
-              <v-icon right color="#A7121D">mdi-arrow-right</v-icon>
-            </v-col>
-            <v-col 
-              md="3" 
-              offset-md="3">
-              <v-card 
-              class="pa-2 py-12" 
-              outlined 
-              tile 
-              height="250px" 
-              color="#1E1E1E"
-            >
-                <v-img src="/img/photo.png" contain></v-img>
-              </v-card>
-            </v-col>
-             <v-col md="3">
-              <v-card 
-                class="pa-2 py-12" 
-                outlined 
-                tile 
-                height="250px" 
-                color="#1E1E1E"
-              >
-                <v-img src="/img/1.png" contain></v-img>
-              </v-card>
             </v-col>
             <v-col cols="12" class="padd topInverse">
                <div class="second">
@@ -201,10 +213,10 @@
                           text-align: center;
                         "
                   >
-                  <v-btn text>Главная</v-btn>
+                  <!-- <v-btn text @click="this.scroll('home')">Главная</v-btn>
                   <v-btn text>Проекты</v-btn>
                   <v-btn text>Обо мне</v-btn>
-                  <v-btn text>Контакты</v-btn>
+                  <v-btn text>Контакты</v-btn> -->
 
                   </div>
                 </v-toolbar>
@@ -314,5 +326,8 @@
 h1.number {
   font-size: 50px;
   font-weight: bold;
+}
+.title {
+  align-self: center;
 }
 </style>

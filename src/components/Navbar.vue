@@ -2,10 +2,11 @@
     <div>
         <v-app-bar app color="111111" dark flat class="px-8">
             <v-btn icon>
-                <v-icon color="teal">fas fa-</v-icon>
+                <v-icon color="#A7121D">fas fa-dragon</v-icon>
             </v-btn>
             <v-spacer></v-spacer>
             <v-btn text @click="scroll('home')">Главна</v-btn>
+            <v-btn text @click="scroll('tech')">технологии</v-btn>
             <v-btn text @click="scroll('project')">Проекты</v-btn>
             <v-btn text @click="scroll('about')">Обо мне</v-btn>
             <v-btn text @click="scroll('contact')">Контакты</v-btn>

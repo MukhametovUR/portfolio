@@ -108,10 +108,10 @@
                   class="pa-2 py-12" 
                   outlined 
                   tile 
-                  height="250px" 
+                  height="100px" 
                   color="#1E1E1E"
                 >
-                    <v-img src="/img/posts.png" contain></v-img>
+                    <v-img src="/img/posts.png" contain max-height="200"></v-img>
                   </v-card>
                 </v-col>
                 <v-col md="3">
@@ -122,7 +122,7 @@
                     height="250px" 
                     color="#1E1E1E"
                   >
-                    <v-img src="/img/shopstore.png" contain></v-img>
+                    <v-img src="/img/freshfood.png" contain max-height="200"></v-img>
                   </v-card>
                 </v-col>
                 <v-col md="3">
@@ -130,10 +130,10 @@
                     class="pa-2 py-12" 
                     outlined 
                     tile 
-                    height="250px" 
+                    height="200px" 
                     color="#1E1E1E"
                   >
-                    <v-img src="/img/cuda.png" contain></v-img>
+                    <v-img src="/img/insurance.png" contain max-height="180"></v-img>
                   </v-card>
                 </v-col>
                   <v-col md="3" offset-md="1">
@@ -141,7 +141,7 @@
                       href="https://vue3project.herokuapp.com/"
                       target="_blank"
                     >
-                      Веб-приложение постов
+                      REST API постов в интернете
                     </v-btn><br />
                     <v-btn color="#A7121D" dark text class="m1-n4"
                       href="https://vue3project.herokuapp.com/"
@@ -153,14 +153,14 @@
                   </v-col>
                 <v-col md="3">
                   <v-btn color="white" dark text class="m1-n4"
-                  href="https://storerushop.herokuapp.com/"
+                  href="https://gilded-mooncake-3cb1cb.netlify.app/"
                       target="_blank"
                   >
                     
-                    Интернет-магазин
+                    Правильное питание
                   </v-btn><br />
                   <v-btn color="#A7121D" dark text class="m1-n4"
-                  href="https://storerushop.herokuapp.com/"
+                  href="https://gilded-mooncake-3cb1cb.netlify.app/"
                       target="_blank"
                   >
                       подробнее
@@ -169,14 +169,14 @@
                 </v-col>  
                  <v-col md="3">
                   <v-btn color="white" dark text class="m1-n4"
-                  href="https://mukhametovur.github.io/cuda/"
+                  href="https://glistening-dolphin-f52e64.netlify.app/"
                       target="_blank"
                   >
                     
-                    Лендинг Cuda
+                    Лендинг страховой компани
                   </v-btn><br />
                   <v-btn color="#A7121D" dark text class="m1-n4"
-                  href="https://mukhametovur.github.io/cuda/"
+                  href="https://glistening-dolphin-f52e64.netlify.app/"
                       target="_blank"
                   >
                       подробнее

@@ -1,9 +1,9 @@
 <template >
     <div>
         <v-col cols="12" class="childcol">
-            <div class="child2 mButton padding bgColor1">
-            <h3 class="red--text text--darken-4"><slot></slot></h3>                             
-            </div>
+            <v-btn color="white" dark text  class="m1-n4 child2 mButton padding bgColor1">
+            <div class="red--text text--darken-10"><slot></slot></div>                             
+            </v-btn>
         </v-col>
     </div>
 </template>

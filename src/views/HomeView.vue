@@ -10,9 +10,17 @@
               <h5 class="white--text text-darken-4 top">Привет, меня зовут Урал</h5>
               <h1 class="white--text">Фронтенд разрботчик, QA</h1>
               <p class="white--text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis repudiandae nulla ad voluptatem quam repellat optio aut consequatur totam at!
+                В настоящее время работаю над проектом изучение иностранных языков.<br />
+                который поможет желающим изучть новый иностранный язык или улучшить <br />
+                знания узученного ранее. <br />
+                В команде 7 специалистов: 2 - Бекенда, 4 - Фронтенда, 1- Тимлид <br />
+                Недельные спринты, которые обговариваются до и после выполнения.
               </p>
-              <v-btn tile color="#A7121D dark">Обо мне</v-btn>
+              <v-btn 
+                @click="scroll('contact')"
+                tile color="#A7121D dark" 
+              >
+              Как связаться?</v-btn>
             </v-col>
             <v-col cols="12" class="padd">
               <div class="first" id="tech">
@@ -88,9 +96,11 @@
                   </v-col>
                 </v-row>
               </div>
+           </v-col>
+            <v-col  style="text-align:center" id="project">
+              <div  class="white--text"><h2 >Проекты</h2></div>
             </v-col>
-                  <!-- <div id="project" class="white--text title"><h2 >Проекты</h2></div> -->
-            <v-row>
+            <v-row>              
                   <v-col 
                   md="3" 
                   offset-md="1">
@@ -175,31 +185,30 @@
                 </v-col>  
             </v-row> 
 
-                  <v-col md="3" offset-md="3" id="about">
-              <h4 class="white--text">FEATURED PROJECTS</h4>
-              <p class="white--text">Lorem ipsum dolor sit</p>
-            </v-col>
-            <v-col md="3" class="text-end">
-              <v-btn tile color="#A7121D" dark>View all</v-btn>
-            </v-col>
+
+  
+
             <v-col cols="12" class="padd topInverse">
                <div class="second">
                   <div class="secondchild1" id="contact">
-                    <v-row>
-                      <v-col cols="7">
-                        <h1 class="white--text">
-                          Текст
-                        </h1>
-                        <p class="grey--text">
-                         Текст <br />
-                        </p>
-                      </v-col>
-                      <v-col cols="5">
-                        <v-btn tile color="#A7121D" dark class="mt-16">
-                          Контакты
-                        </v-btn>
-                      </v-col>
+                      <v-row style="width:100%; margin:30px 0">
+                        <v-row style="margin:5px 15px; border:1px solid #fff;border-radius:10px">
+                          <v-col cols="3">
+                              <h2 class="white--text">Образование</h2>
+                          </v-col>
+                          <v-col md="3">                 
+                          <div class="white--text">GeekBrains</div>
+                          <div class="white--text">Фронтент разработчик </div>
+                          <div class="white--text">2021-2022</div>
+
+                          </v-col>
+                          <v-col md="6">                 
+                            <p class="white--text">Научился разрабатывать веб-приложение на Vue.js, строить пользовательские интерфейсы благодаря компонентному подхода фреймворка и способностью декомпозировть сложные структуры</p>
+                          </v-col>
+                        </v-row> 
+                                       
                     </v-row>
+                        
                   </div>
                 </div>
                 <v-toolbar class="topTolbar" color="#111111" dark flat>
@@ -241,6 +250,12 @@
       Footer,
       StekButton
     },
+     methods: {
+        scroll(refName){
+            const element = document.getElementById(refName);
+            element.scrollIntoView({behavior:"smooth"})
+        }
+    }
   }
 </script>
 

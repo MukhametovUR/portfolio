@@ -18,10 +18,11 @@
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
-                        <v-btn class="mx-1 white--text" icon>
-                             <v-icon color="#A7121D">mdi-heart</v-icon>
-                        </v-btn>
-                        Created by Ural with Vue2 & Vuetify                          
+                        <!-- <v-btn class="mx-1 white--text" icon>
+                             <v-icon color="#A7121D">mdi-dragon</v-icon>
+                        </v-btn> -->
+                        Мухаметов Урал <br />
+                        ©2022 Сайт-портфолио front-end разработчика                 
                     </v-card-text>
                 </v-col>
             </v-row>
@@ -31,7 +32,7 @@
 <script>
 export default {
    data: () => ({
-    icons: ["mdi-facebook"],
+    icons: ["mdi-whatsapp","mdi-telegram"],
   }),
 }
 </script>

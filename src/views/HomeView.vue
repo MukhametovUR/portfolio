@@ -108,7 +108,7 @@
                   class="pa-2 py-12" 
                   outlined 
                   tile 
-                  height="100px" 
+                  height="250px" 
                   color="#1E1E1E"
                 >
                     <v-img src="/img/posts.png" contain max-height="200"></v-img>
@@ -130,7 +130,7 @@
                     class="pa-2 py-12" 
                     outlined 
                     tile 
-                    height="200px" 
+                    height="250px" 
                     color="#1E1E1E"
                   >
                     <v-img src="/img/insurance.png" contain max-height="180"></v-img>
@@ -155,8 +155,7 @@
                   <v-btn color="white" dark text class="m1-n4"
                   href="https://gilded-mooncake-3cb1cb.netlify.app/"
                       target="_blank"
-                  >
-                    
+                  >                    
                     Правильное питание
                   </v-btn><br />
                   <v-btn color="#A7121D" dark text class="m1-n4"
@@ -183,11 +182,7 @@
                   </v-btn>
                   <v-icon right color="#A7121D">mdi-arrow-right</v-icon>
                 </v-col>  
-            </v-row> 
-
-
-  
-
+            </v-row>
             <v-col cols="12" class="padd topInverse">
                <div class="second">
                   <div class="secondchild1" id="contact">
@@ -205,10 +200,8 @@
                           <v-col md="6">                 
                             <p class="white--text">Научился разрабатывать веб-приложение на Vue.js, строить пользовательские интерфейсы благодаря компонентному подхода фреймворка и способностью декомпозировть сложные структуры</p>
                           </v-col>
-                        </v-row> 
-                                       
-                    </v-row>
-                        
+                        </v-row>                                       
+                    </v-row>                       
                   </div>
                 </div>
                 <v-toolbar class="topTolbar" color="#111111" dark flat>
@@ -226,7 +219,6 @@
                   <v-btn text>Проекты</v-btn>
                   <v-btn text>Обо мне</v-btn>
                   <v-btn text>Контакты</v-btn> -->
-
                   </div>
                 </v-toolbar>
             </v-col>

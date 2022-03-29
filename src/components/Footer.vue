@@ -11,16 +11,12 @@
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
-                        <v-btn v-for="icon in icons" :key="icon" class="mx-1 white--text">
-                            <v-icon size="24px"> {{icon}} </v-icon>
-                        </v-btn>
+                        <v-text class="mx-2 white--text">Почта: amgid7@mail.ru</v-text>
+                        <v-text class="mx-1 white--text">Телефон: +7(977)1429188</v-text>
                     </v-card-text>
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
-                        <!-- <v-btn class="mx-1 white--text" icon>
-                             <v-icon color="#A7121D">mdi-dragon</v-icon>
-                        </v-btn> -->
                         Мухаметов Урал <br />
                         ©2022 Сайт-портфолио front-end разработчика                 
                     </v-card-text>
@@ -31,9 +27,6 @@
 </template>
 <script>
 export default {
-   data: () => ({
-    icons: ["mdi-whatsapp","mdi-telegram"],
-  }),
 }
 </script>
 <style lang="">

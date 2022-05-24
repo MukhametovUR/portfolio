@@ -6,7 +6,7 @@
             </v-btn>
             <v-spacer></v-spacer>
             <v-btn text @click="scroll('home')">Главна</v-btn>
-            <v-btn text @click="scroll('tech')">технологии</v-btn>
+            <v-btn text @click="scroll('tech')">Технологии</v-btn>
             <v-btn text @click="scroll('project')">Проекты</v-btn>
             <v-btn text @click="scroll('about')">Обо мне</v-btn>
             <v-btn text @click="scroll('contact')">Контакты</v-btn>

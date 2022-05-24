@@ -11,8 +11,8 @@
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
-                        <v-text class="mx-2 white--text">Почта: amgid7@mail.ru</v-text>
-                        <v-text class="mx-1 white--text">Телефон: +7(977)1429188</v-text>
+                        <label class="mx-2 white--text">Почта: amgid7@mail.ru</label>
+                        <label class="mx-1 white--text">Телефон: +7(977)1429188</label>
                     </v-card-text>
                 </v-col>
                 <v-col cols="12" sm="4">

@@ -1,16 +1,21 @@
 <template >
-    <div>
-        <v-col cols="12" class="childcol">
-            <v-btn color="white" dark text  class="m1-n4 child2 mButton padding bgColor1">
-            <div class="red--text text--darken-10"><slot></slot></div>                             
-            </v-btn>
-        </v-col>
-    </div>
+  <div>
+    <v-col cols="12" class="childcol">
+      <v-btn
+        color="white"
+        dark
+        text
+        class="m1-n4 child2 mButton padding bgColor1"
+      >
+        <div class="red--text text--darken-10"><slot></slot></div>
+      </v-btn>
+    </v-col>
+  </div>
 </template>
 <script>
 export default {
-    name: 'stek-button'
-}
+  name: "stek-button",
+};
 </script>
 <style>
 .top {

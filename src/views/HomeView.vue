@@ -4,7 +4,12 @@
     <v-container fluid>
       <v-row>
         <v-col cols="6">
-          <v-img src="/img/photo.png" contain max-height="500" class="photo"></v-img>
+          <v-img
+            src="/img/photo.png"
+            contain
+            max-height="500"
+            class="photo"
+          ></v-img>
         </v-col>
         <v-col cols="6" id="home">
           <h5 class="white--text text-darken-4 top">Привет, меня зовут Урал</h5>
@@ -18,7 +23,7 @@
             В команде 7 специалистов: 2 - Бекенда, 4 - Фронтенда, 1- Тимлид
             <br />
             В команде гибкая система рзработки с приенение недельных спринтов,
-             <br />
+            <br />
             которые обговариваются до и после выполнения.
           </div>
           <v-btn @click="scroll('contact')" tile color="#A7121D dark">
@@ -75,8 +80,10 @@
               </v-col>
 
               <v-col cols="12" class="mt-10">
-                                            <h3 class="white--text py-6 position-center">Стек технологий</h3>
-                
+                <h3 class="white--text py-6 position-center">
+                  Стек технологий
+                </h3>
+
                 <div class="child2 mRight">
                   <v-row>
                     <stek-button>Postman</stek-button>
@@ -146,7 +153,8 @@
           </v-col>
           <v-col md="3">
             <v-card
-              class="pa-2 py-12 content__block" style="text-align: center"
+              class="pa-2 py-12 content__block"
+              style="text-align: center"
               outlined
               tile
               height="250px"
@@ -177,7 +185,8 @@
           </v-col>
           <v-col md="3">
             <v-card
-              class="pa-2 py-12 content__block" style="text-align: center"
+              class="pa-2 py-12 content__block"
+              style="text-align: center"
               outlined
               tile
               height="250px"
@@ -208,87 +217,101 @@
           </v-col>
         </v-row>
         <v-col cols="12" class="padd topInverse">
-            <div class="second">
-              <v-row style="width: 100%; margin: 30px 0">
-                <v-row
-                  style="
-                    margin: 5px 15px;
-                    border: 1px solid #fff;
-                    border-radius: 10px;
-                  "
-                >
-                  <v-col cols="3">
-                    <h2 class="white--text">Образование</h2>
-                  </v-col>
-                  <v-col md="3">
-                    <div class="white--text">УГАТУ</div>
-                    <div class="white--text">Специалист прикладной информатики</div>
-                    <div class="white--text">2013-2017</div>
-                  </v-col>
-                  <v-col md="6">
-                    <p class="white--text">
-                      Освоил базовые навоки архитектуры прикладных решений, формирование локиги, составление и веденение технической докуентции, формирование и выполнение требований ТЗ программного продукта
-                    </p>
-                  </v-col>
-                  <v-col cols="3">
-                  </v-col>
-                  <v-col md="3">
-                    <div class="white--text">GeekBrains</div>
-                    <div class="white--text">Фронтент разработчик</div>
-                    <div class="white--text">2021-2022</div>
-                  </v-col>
-                  <v-col md="6">
-                    <p class="white--text">
-                      Научился разрабатывать веб-приложение на Vue.js, строить
-                      пользовательские интерфейсы благодаря компонентному
-                      подхода фреймворка и способностью декомпозировть сложные
-                      структуры
-                    </p>
-                  </v-col>
-                </v-row>
+          <div class="second">
+            <v-row style="width: 100%; margin: 30px 0">
+              <v-row
+                style="
+                  margin: 5px 15px;
+                  border: 1px solid #fff;
+                  border-radius: 10px;
+                "
+              >
+                <v-col cols="3">
+                  <h2 class="white--text">Образование</h2>
+                </v-col>
+                <v-col md="3">
+                  <div class="white--text">УГАТУ</div>
+                  <div class="white--text">
+                    Специалист прикладной информатики
+                  </div>
+                  <div class="white--text">2013-2017</div>
+                </v-col>
+                <v-col md="6">
+                  <p class="white--text">
+                    Освоил базовые навоки архитектуры прикладных решений,
+                    формирование локиги, составление и веденение технической
+                    докуентции, формирование и выполнение требований ТЗ
+                    программного продукта
+                  </p>
+                </v-col>
+                <v-col cols="3"> </v-col>
+                <v-col md="3">
+                  <div class="white--text">GeekBrains</div>
+                  <div class="white--text">Фронтент разработчик</div>
+                  <div class="white--text">2021-2022</div>
+                </v-col>
+                <v-col md="6">
+                  <p class="white--text">
+                    Научился разрабатывать веб-приложение на Vue.js, строить
+                    пользовательские интерфейсы благодаря компонентному подхода
+                    фреймворка и способностью декомпозировть сложные структуры
+                  </p>
+                </v-col>
               </v-row>
+            </v-row>
           </div>
           <div class="second" id="about">
-              <v-row style="width: 100%; margin: 30px 0;  display:flex; flex-wrap:wrap;">
-                <v-row
-                  style="
-                    margin: 5px 15px;
-                    border: 1px solid #fff;
-                    border-radius: 10px;"
-                >
-                  <v-col cols="3">
-                    <h2 class="white--text">Обо мне</h2>
-                  </v-col>
-                  <v-col md="9">
-                    <p class="white--text">
-                      Веду активный образ жизни, изучаю английский язык, посещаю митапы по применению прикладных решений. Изучаю техническую документацию связанные с разрботкой и внедением автоатизированных решений в бизнес предпрятия, либо индививуальных предпринимателей
-                    </p>
-                  </v-col>
-                </v-row>
+            <v-row
+              style="
+                width: 100%;
+                margin: 30px 0;
+                display: flex;
+                flex-wrap: wrap;
+              "
+            >
+              <v-row
+                style="
+                  margin: 5px 15px;
+                  border: 1px solid #fff;
+                  border-radius: 10px;
+                "
+              >
+                <v-col cols="3">
+                  <h2 class="white--text">Обо мне</h2>
+                </v-col>
+                <v-col md="9">
+                  <p class="white--text">
+                    Веду активный образ жизни, изучаю английский язык, посещаю
+                    митапы по применению прикладных решений. Изучаю техническую
+                    документацию связанные с разрботкой и внедением
+                    автоатизированных решений в бизнес предпрятия, либо
+                    индививуальных предпринимателей
+                  </p>
+                </v-col>
               </v-row>
+            </v-row>
           </div>
-          
         </v-col>
       </v-row>
       <v-toolbar class="topTolbar" color="#111111" dark flat>
-            <div
-              style="
-                position: absolute;
-                margin-left: auto;
-                margin-right: auto;
-                left: 0;
-                right: 0;
-                text-align: center;
-              "
-            >
-              <!-- <v-btn text @click="this.scroll('home')">Главная</v-btn>
+        <div
+          style="
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+          "
+        >
+          <!-- <v-btn text @click="this.scroll('home')">Главная</v-btn>
                   <v-btn text>Проекты</v-btn>
                   <v-btn text>Обо мне</v-btn>
                   <v-btn text>Контакты</v-btn> -->
-            </div>
-          </v-toolbar>
+        </div>
+      </v-toolbar>
     </v-container>
-    <Footer  id="contact"/>
+    <Footer id="contact" />
   </v-app>
 </template>
 

@@ -23,7 +23,7 @@
         <v-col cols="12" sm="4">
           <v-card-text class="pt-2">
             Мухаметов Урал <br />
-            ©2022 Сайт-портфолио front-end разработчика
+            ©2025 Сайт-портфолио front-end разработчика
           </v-card-text>
         </v-col>
       </v-row>

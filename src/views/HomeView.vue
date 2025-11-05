@@ -218,7 +218,7 @@
         </v-row>
         <v-col cols="12" class="padd topInverse">
           <div class="second">
-            <v-row style="width: 100%; margin: 30px 0">
+            <v-row style="width: 100%; margin: 5px 0">
               <v-row
                 style="
                   margin: 5px 15px;
@@ -236,7 +236,7 @@
                   </div>
                   <div class="white--text">2013-2017</div>
                 </v-col>
-                <v-col md="6">
+                <v-col md="6" cols="4">
                   <p class="white--text">
                     Освоил базовые навоки архитектуры прикладных решений,
                     формирование локиги, составление и веденение технической
@@ -264,7 +264,7 @@
             <v-row
               style="
                 width: 100%;
-                margin: 30px 0;
+                margin: 50px 0;
                 display: flex;
                 flex-wrap: wrap;
               "
@@ -371,10 +371,10 @@ export default {
 .second {
   display: inline-block;
   background-color: #1e1e1e;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   vertical-align: middle;
   text-align: left;
-  margin-top: 250px;
+  margin-top: 20rem;
 }
 .child {
   display: inline-block;
